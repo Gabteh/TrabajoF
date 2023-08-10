@@ -32,7 +32,7 @@ def Quiniela():
         
         Numero_Ap = int(input("Ingrese el monto de la apuesta: "))
         Cupon = 1
-        Number = [random.randint(1, 100) for _ in range(Cfra_1)]
+        Number = [random.randint(1, 100) for i in range(Cfra_1)]
         Comp_1 = []
         Recaudacion.append([Numero_Ap])
         
@@ -78,7 +78,7 @@ def Quini_6():
             Numero_Ap = 400
             Number = [random.randint(1, 36) for _ in range(6)]
             Comp_1 = []
-            for _ in range(6):
+            for i in range(6):
                 Ingreso_1 = int(input("Ingrese un número del 1 al 36: "))
                 Comp_1.append(Ingreso_1)
             
